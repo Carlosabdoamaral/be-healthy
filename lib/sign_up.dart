@@ -14,6 +14,7 @@ class _SignUpPageState extends State<SignUpPage> {
     return Material(
       child: SingleChildScrollView(
         child: Container(
+          height: 1000,
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment.topRight,

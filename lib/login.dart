@@ -15,6 +15,7 @@ class _LoginPageState extends State<LoginPage> {
     return Material(
       child: SingleChildScrollView(
         child: Container(
+          height: 1000,
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment.topRight,
