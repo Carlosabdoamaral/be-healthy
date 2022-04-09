@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3765779b-1ca8-467e-8a8a-e307d0760cfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/Poppins-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Poppins-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Poppins-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/be-healthy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/be-healthy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/single_notification.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/history.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/notifications.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/last_train_component.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/single_train_component.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/onboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/onboarding.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27VApwa6mvJ4urkaeWhLMqoofUY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -80,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649395066087</updated>
       <workItem from="1649395069500" duration="2812000" />
-      <workItem from="1649462248782" duration="9392000" />
+      <workItem from="1649462248782" duration="18895000" />
     </task>
     <servers />
   </component>
@@ -97,5 +99,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="Dart">
+          <url>file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/fl_chart-0.50.1/lib/src/chart/line_chart/line_chart_data.dart</url>
+          <line>308</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

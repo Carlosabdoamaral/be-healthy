@@ -1,4 +1,3 @@
-import 'package:be_healthy/home.dart';
 import 'package:be_healthy/onboarding.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +15,7 @@ class Controller extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
-      home: OnboardingPage(),
+      home: const OnboardingPage(),
     );
   }
 }

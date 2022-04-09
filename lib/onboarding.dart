@@ -59,7 +59,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   margin: EdgeInsets.only(bottom: 30),
                   child: FloatingActionButton.extended(
                     elevation: 10,
-                    backgroundColor: const Color(0xff0bcbba),
+                    backgroundColor: Colors.black,
                     foregroundColor: Colors.white,
                     onPressed: () {
                       Navigator.push(
