@@ -105,7 +105,7 @@ class _HistoryPageState extends State<HistoryPage> {
                                     label: Text(
                                       "Day",
                                       style: TextStyle(
-                                        fontSize: 17,
+                                        fontSize: 14,
                                         fontFamily: 'Poppins',
                                         color: Colors.white70
                                       ),
@@ -119,7 +119,7 @@ class _HistoryPageState extends State<HistoryPage> {
                                     label: Text(
                                       "Week",
                                       style: TextStyle(
-                                          fontSize: 17,
+                                          fontSize: 14,
                                           fontFamily: 'Poppins',
                                           color: Colors.white
                                       ),
@@ -133,7 +133,7 @@ class _HistoryPageState extends State<HistoryPage> {
                                     label: Text(
                                       "Month",
                                       style: TextStyle(
-                                          fontSize: 17,
+                                          fontSize: 14,
                                           fontFamily: 'Poppins',
                                           color: Colors.white70
                                       ),

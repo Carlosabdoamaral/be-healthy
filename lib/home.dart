@@ -1,5 +1,7 @@
 import 'dart:core';
 import 'package:be_healthy/history.dart';
+import 'package:be_healthy/login.dart';
+import 'package:be_healthy/new_exercise.dart';
 import 'package:be_healthy/notifications.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -24,19 +26,20 @@ class _HomePageState extends State<HomePage> {
           children: [
             Container(
               decoration: const BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topRight,
-                    end: Alignment.bottomLeft,
-                    colors: [
-                      Colors.deepPurpleAccent,
-                      Colors.lightBlueAccent,
-                    ],
-                  ),
-                  borderRadius: BorderRadius.only(
-                      bottomRight: Radius.circular(30),
-                      bottomLeft: Radius.circular(30))),
+                gradient: LinearGradient(
+                  begin: Alignment.topRight,
+                  end: Alignment.bottomLeft,
+                  colors: [
+                    Colors.deepPurpleAccent,
+                    Colors.lightBlueAccent,
+                  ],
+                ),
+                borderRadius: BorderRadius.only(
+                  bottomRight: Radius.circular(30),
+                  bottomLeft: Radius.circular(30),
+                ),
+              ),
               width: double.infinity,
-              padding: const EdgeInsets.only(top: 10),
               child: SafeArea(
                 child: Container(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -45,19 +48,13 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Row(
                         children: [
-                          const Icon(
-                            Icons.space_dashboard_rounded,
-                            size: 35,
-                            color: Colors.white,
-                          ),
-                          const Spacer(),
                           FloatingActionButton(
                             onPressed: () {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
                                     builder: (context) =>
-                                        const NotificationsPage()),
+                                    const NotificationsPage()),
                               );
                             },
                             tooltip: "Notifications",
@@ -67,6 +64,27 @@ class _HomePageState extends State<HomePage> {
                               Icons.notifications_outlined,
                               size: 35,
                               color: Colors.white,
+                            ),
+                          ),
+
+                          const Spacer(),
+
+                          FloatingActionButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) =>
+                                    const LoginPage()),
+                              );
+                            },
+                            tooltip: "Logout",
+                            backgroundColor: Colors.transparent,
+                            elevation: 0,
+                            child: Icon(
+                              Icons.logout,
+                              size: 30,
+                              color: Colors.white38,
                             ),
                           )
                         ],
@@ -103,6 +121,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
+              padding: const EdgeInsets.only(top: 10),
             ),
             Container(
               child: Column(
@@ -115,12 +134,43 @@ class _HomePageState extends State<HomePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Text(
-                          "New",
-                          style: const TextStyle(
-                              fontFamily: 'Poppins',
-                              fontWeight: FontWeight.w600,
-                              fontSize: 25),
+                        Row(
+                          children: [
+                            const Text(
+                              "New",
+                              style: const TextStyle(
+                                  fontFamily: 'Poppins',
+                                  fontWeight: FontWeight.w600,
+                                  fontSize: 25),
+                            ),
+                            const Spacer(),
+                            FloatingActionButton.extended(
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          const NewExercisePage()),
+                                );
+                              },
+                              label: Row(
+                                children: const [
+                                  Text(
+                                    "Other",
+                                    style: TextStyle(
+                                        color: Colors.grey,
+                                        fontFamily: 'Poppins'),
+                                  ),
+                                  Icon(
+                                    Icons.add,
+                                    color: Colors.grey,
+                                  ),
+                                ],
+                              ),
+                              backgroundColor: Colors.transparent,
+                              elevation: 0,
+                            )
+                          ],
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -348,19 +398,16 @@ class _HomePageState extends State<HomePage> {
                             )
                           ],
                         ),
-
                         SingleHistoryA(
                           title: "Walk",
                           distancy: 10,
                           date: "05/04/2022",
                         ),
-
                         SingleHistoryA(
                           title: "Walk",
                           distancy: 10,
                           date: "05/04/2022",
                         ),
-
                         SingleHistoryA(
                           title: "Walk",
                           distancy: 10,

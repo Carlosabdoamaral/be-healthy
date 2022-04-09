@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3765779b-1ca8-467e-8a8a-e307d0760cfd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/components/single_notification.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/history.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/notifications.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/login.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/new_exercise.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sign_up.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/history.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/history.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/home.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/onboarding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/onboarding.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,9 @@
       <option name="presentableId" value="Default" />
       <updated>1649395066087</updated>
       <workItem from="1649395069500" duration="2812000" />
-      <workItem from="1649462248782" duration="18895000" />
+      <workItem from="1649462248782" duration="19118000" />
+      <workItem from="1649513897752" duration="1359000" />
+      <workItem from="1649515560705" duration="8778000" />
     </task>
     <servers />
   </component>
