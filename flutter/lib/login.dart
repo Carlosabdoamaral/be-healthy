@@ -34,8 +34,8 @@ class _LoginPageState extends State<LoginPage> {
               begin: Alignment.topRight,
               end: Alignment.bottomLeft,
               colors: [
-                Colors.deepPurpleAccent,
-                Colors.lightBlueAccent,
+                Color.fromRGBO(124, 77, 255, 1),
+                Color.fromRGBO(64, 196, 255, 1),
               ],
             ),
           ),
@@ -44,27 +44,25 @@ class _LoginPageState extends State<LoginPage> {
               padding: const EdgeInsets.symmetric(horizontal: 40),
               child: Column(
                 children: [
-                  Spacer(),
-                  Container(
-                    child: Column(
-                      children: const [
-                        Text(
-                          "Welcome to",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontFamily: 'Poppins',
-                              fontSize: 20),
-                        ),
-                        Text(
-                          "BeHealthy",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontFamily: 'Poppins',
-                              fontSize: 35,
-                              fontWeight: FontWeight.w700),
-                        )
-                      ],
-                    ),
+                  const Spacer(),
+                  Column(
+                    children: const [
+                      Text(
+                        "Welcome to",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: 'Poppins',
+                            fontSize: 20),
+                      ),
+                      Text(
+                        "BeHealthy",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontFamily: 'Poppins',
+                            fontSize: 35,
+                            fontWeight: FontWeight.w700),
+                      )
+                    ],
                   ),
                   Container(
                     width: double.infinity,
